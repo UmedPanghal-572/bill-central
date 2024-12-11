@@ -337,6 +337,26 @@
         color: #ffffff;
         text-align: center;
     }
+
+    .nav {
+        position: fixed;
+        left: 0;
+        right: 0;
+        background: #09476e;
+        z-index: 5;
+    }
+
+    .ms-10 {
+        margin-left: 10px;
+    }
+
+    .me-10 {
+        margin-right: 10px;
+    }
+
+    .mt-50 {
+        margin-top: 50px;
+    }
 }
 
 @media (min-width:992px) {
