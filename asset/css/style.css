@@ -263,7 +263,7 @@
     line-height: 24px;
     text-align: left;
     color: #00171F;
-    margin-bottom: 38px;
+    padding-bottom: 38px;
 }
 
 .benefits {
@@ -430,9 +430,10 @@
     .mt-50 {
         margin-top: 50px;
     }
-        .mt-24 {
-            margin-top: 24px;
-        }
+
+    .mt-24 {
+        margin-top: 24px;
+    }
 }
 
 @media (min-width:992px) {
@@ -451,6 +452,12 @@
 
     .col-lg-6 {
         width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-7 {
+        width: 58.33%;
         padding-left: 12px;
         padding-right: 12px;
     }
@@ -489,7 +496,10 @@
         gap: 45px;
     }
 
-    
+    .mw-558 {
+        max-width: 558px;
+    }
+
 }
 
 @media (min-width:1040px) {
