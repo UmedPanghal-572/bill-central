@@ -167,6 +167,7 @@
     line-height: 18.4px;
     text-align: left;
     white-space: nowrap;
+    background-color: #ffffff;
 }
 
 .main-heading {
@@ -393,6 +394,10 @@
 
 .up-text-4 {
     left: 0%;
+}
+
+.ms-3 {
+    margin-right: 3px;
 }
 
 .text-card {
